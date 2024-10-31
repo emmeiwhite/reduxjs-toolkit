@@ -7,7 +7,7 @@ const initialState = {
   isLoading: true
 }
 
-createSlice({
+const cartSlice = createSlice({
   name: 'cart',
   initialState
 })
