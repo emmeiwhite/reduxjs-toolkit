@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import { CartIcon } from './src/icons'
+import { CartIcon } from './icons'
 
 export default function Navbar() {
   const { totalItemsInCart, modal } = useSelector(store => store.cart)
